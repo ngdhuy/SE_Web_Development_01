@@ -36,6 +36,31 @@ HTML structure
   </html>
 ```
 
+**Tag type**
+1. Text
+    - Heading: h1, h2, h3, h4, h5, h6
+    - text: span, i, b, u, del
+    - link: a
+    - paragraph: p
+2. Block
+    - table
+      - tr : table row
+      - td : table data
+      - th : table head
+    - advance of table
+      - caption
+      - thead : table header
+      - tbody : table body
+      - tfoot : table footer
+    - div : div, header, footer, section, nav
+    - list
+      - order list : ol, li
+      - un-order list: ul, li
+3. Media: 
+    - image
+    - sound (html5)
+    - video (html5)
+
 ### 2. JS + ES + AJAX
 ### 3. PHP + MySQL
 ### 4. Deployment to Server
