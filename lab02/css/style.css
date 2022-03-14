@@ -1,0 +1,14 @@
+h1 {
+  background-color: rgba(182, 35, 91, 0.75);
+  color: #fff;
+}
+
+h2 {
+  color: #66cc33;
+}
+
+p {
+  color: #3366cc;
+  font-weight: bold;
+  font-style: italic;
+}
