@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #cc3366;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 400px;
+}
+
+.header {
+  background-color: #66cc33;
+  height: 100px;
+}
+
+.left-sidebar, .right-sidebar {
+  background-color: #6633cc;
+  height: 200px;
+  width: 20%;
+  float: left;
+}
+
+.content {
+  background-color: #ecb062;
+  height: 300px;
+  width: 60%;
+  float: left;
+}
+
+.footer {
+  background-color: #d628c8;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  clear: both;
+}
