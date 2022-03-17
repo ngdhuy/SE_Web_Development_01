@@ -10,8 +10,38 @@
 <body>
   <div class="container">
     <div class="header">Header</div>
-    <div class="left-sidebar">Left-sidebar</div>
-    <div class="content">Content</div>
+    <div class="left-sidebar">
+      <ul class="menu">
+        <li>Menu item 1</li>
+        <li>Menu item 2</li>
+        <li>Menu item 3 &gt;
+          <ul class="sub-menu">
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+            <li>Sub item 3</li>
+            <li>Sub item 4</li>
+            <li>Sub item 5</li>
+          </ul>
+        </li>
+        <li>Menu item 4</li>
+      </ul>
+      <ul class="menu">
+        <li>menu 1</li>
+        <li>menu 2</li>
+        <li>menu 3</li>
+        <li>menu 4</li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1>Phương pháp layout</h1>
+      <ol>
+        <li>Sử dụng HTML để layout, gôm nhóm</li>
+        <li>Tô màu nền (Background-color) và xác định size của từng vùng</li>
+        <li>Sử dụng các kỹ thuật Float/Flex/Grid để layout và xác định vị trí của từng vùng</li>
+        <li>Format màu sắc, hình ảnh cho từng vừng</li>
+        <li>Xoá background-color ban đầu</li>
+      </ol>
+    </div>
     <div class="right-sidebar">Right-sidebar</div>
     <div class="footer">Footer</div>
   </div>
