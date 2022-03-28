@@ -6,7 +6,7 @@ body {
 .container {
   background-color: #cc3366;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   min-height: 400px;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .content {
   background-color: #ecb062;
-  min-height: 300px;
+  min-height: 1500px;
   width: 60%;
   float: left;
 }
@@ -77,3 +77,14 @@ body {
 }
 
 .sub-menu > li:hover { background-color: #12279e; }
+
+.adv {
+  background-color: #12279e; 
+  color: #fff;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
