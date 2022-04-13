@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo 05</title>
+  <style type="text/css">
+    div {
+      background-color: #cc3366;
+      color: #fff;
+      width: 400px;
+      height: 300px;
+      text-align: center;
+      line-height: 300px;
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Event of mouse</h1>
+  <div 
+    onmousedown="mouseDown()" 
+    onmouseup="mouseUp()" 
+    onmouseover="mouseOver()"
+    onmouseleave="mouseOut()"
+  >
+    Move mouse to here
+  </div>
+
+  <script type="text/javascript">
+    function mouseOver() { document.bgColor = '#40dfef'; }
+
+    function mouseOut() { document.bgColor = '#b9f8d3'; }
+
+    function mouseDown() { document.bgColor = '#fffbe7'; }
+
+    function mouseUp() { document.bgColor = '#e78ea9'; }
+  </script>
+</body>
+</html>
