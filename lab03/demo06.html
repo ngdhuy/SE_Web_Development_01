@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo 06</title>
+</head>
+<body>
+  <h1>DOM - Window object</h1>
+  <button type="button" onclick="handleAlert()">Alert</button>
+  <button type="button" onclick="handleConfirm()">Confirm</button>
+  <button type="button" onclick="handlePrompt()">Prompt</button>
+  <button type="button" onclick="handlePrintLocation()">Print location</button>
+  <button type="button" onclick="handlePrintBrowserInfo()">Print browser information</button>
+  <button type="button" onclick="window.history.back();">Previous</button>
+  <button type="button" onclick="window.history.go(1);">Next</button>
+
+  <script type="text/javascript">
+    function handleAlert() {
+      var result = window.alert('Hello');
+      console.log(result);
+    }
+
+    function handleConfirm() {
+      var result = window.confirm('Do you want to navigate to RMIT site?');
+      console.log(result);
+    }
+
+    function handlePrompt() {
+      var result = window.prompt('Please, enter a number?', 999);
+      console.log(result);
+    }
+
+    function handlePrintLocation() {
+      console.log(window.location);
+    }
+
+    function handlePrintBrowserInfo() {
+      console.log(window.navigator);
+    }
+  </script>
+</body>
+</html>
