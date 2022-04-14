@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Get Element with input</h1>
+  <fieldset>
+    <legend>Information</legend>
+    <label for="txtValue">Value:</label>
+    <input type="text" name="txtValue" id="txtValue" placeholder="please enter a number" />
+    <button type="button">Get value</button>
+    <div id="result"></div>
+  </fieldset>
+  
+  <script type="text/javascript">
+    let btnGetValue = document.querySelector('button'); 
+    let txtValue = document.querySelector('#txtValue');
+    let divNode = document.querySelector('#result');
+
+    btnGetValue.addEventListener('click', function(){
+      console.log(txtValue.value);
+      console.log(txtValue.tagName);
+      console.log(txtValue.nodeType);
+      console.log(txtValue.nodeName);
+
+      let value = txtValue.value; 
+      let p_node = document.createElement('p');
+      let text_node = document.createTextNode(value);
+      p_node.appendChild(text_node);
+      divNode.appendChild(p_node);
+    });
+  </script>
+</body>
+</html>
